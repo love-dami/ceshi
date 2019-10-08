@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui">
+  <link rel="stylesheet" href="../public/mobile/css/reset.css">
+  <link rel="stylesheet" href="../public/mobile/css/base.css">
+  <link rel="stylesheet" href="../public/dragonTigerList/dragonTigerList.css">
+  <script async src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+</head>
+
+<body>
+  <div id="dragonTigerList">
+    <div class="banner">
+      <div class="title f38">龙虎榜</div>
+      <div class="calendar f30"></div>
+      <div class="icon fr"></div>
+      <div class="bannerNav">
+        <span class="navList" :class="{ on: isOn==1 }" @click="tableClick('getShangHai',1)">沪A</span>
+        <span class="navList" :class="{ on: isOn==2 }" @click="tableClick('getShenZhen',2)">深A</span>
+        <span class="navList" :class="{ on: isOn==3 }" @click="tableClick('getInstitution',3)">机构</span>
+        <span class="navList" :class="{ on: isOn==4 }" @click="salesClick(4)">营业部</span>
+      </div>
+    </div>
+    <div>
+      <router-view></router-view>
+    </div>
+  </div>
+  <script src="../public/dragonTigerList/dist/dragonTigerList.bundle.js"></script>
+</body>
+
+</html>

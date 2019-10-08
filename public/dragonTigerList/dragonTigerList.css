@@ -1,0 +1,231 @@
+.f24 {
+  font-size: .32rem;
+}
+
+.f26 {
+  font-size: .347rem;
+}
+
+.ml30 {
+  margin-left: .4rem;
+}
+
+.f30 {
+  font-size: .4rem;
+}
+
+.f32 {
+  font-size: .427rem;
+}
+
+.f38 {
+  font-size: .507rem;
+}
+
+.color333 {
+  color: #333;
+  display: block;
+}
+
+.color8c {
+  color: #8C8C8C;
+}
+
+::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+  overflow: visible;
+  opacity: 0;
+}
+
+.green {
+  color: #00A200;
+}
+
+.red {
+  color: #EA2827;
+}
+
+/* 沪A/深A/机构 */
+.navList {
+  position: relative;
+}
+
+.navList.on:before {
+  content: "";
+  height: .173rem;
+  display: inline-block;
+  border: .173rem solid #fff;
+  border-left: .173rem solid transparent;
+  border-top: .173rem solid transparent;
+  border-right: .173rem solid transparent;
+  position: absolute;
+  bottom: 0;
+  left: 1.08rem;
+}
+
+.el-table .cell {
+  color: #333333;
+  text-align: center;
+  font-weight: bold;
+}
+
+.el-table th>.cell {
+  text-align: center;
+  color: #666;
+  font-weight: normal;
+}
+
+.el-table .el-table__row .el-table_1_column_3 .cell {
+  font-weight: normal;
+  text-align: left;
+}
+
+.el-table .el-table_1_column_1 .cell {
+  text-align: left;
+  font-weight: normal;
+}
+
+.el-table::before {
+  width: 0 !important;
+  height: 0 !important;
+}
+
+#dragonTigerList {
+  font-size: .4rem;
+}
+
+.banner {
+  width: 100%;
+  height: 3.907rem;
+  background: #D4AA63;
+  color: #FFE7BF;
+  padding: .533rem 0 0;
+  position: relative;
+}
+
+.banner .title {
+  color: #FFF;
+  margin-left: 1.013rem;
+}
+
+.banner .icon {
+  width: 2.267rem;
+  height: 2.507rem;
+  position: absolute;
+  top: .533rem;
+  right: .4rem;
+  background: url(./images/long_hu_pai.png) no-repeat;
+  background-size: 2.267rem 2.507rem;
+}
+
+.banner .bannerNav {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.banner .navList {
+  width: 24%;
+  padding: .267rem 0;
+  display: inline-block;
+  text-align: center;
+}
+
+/* 营业部 */
+.salesNav {
+  width: 6.94rem;
+  margin: .44rem auto;
+  border: 1px solid rgba(238, 238, 238, 1);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.salesNav .salesNavList {
+  width: 2.293rem;
+  height: .747rem;
+  color: #666;
+  line-height: .747rem;
+  display: inline-block;
+  text-align: center;
+  border-right: 1px solid rgba(238, 238, 238, 1);
+}
+
+.salesNav .salesNavList:first-child {
+  /* border-right: 0 */
+}
+
+.salesNav .salesNavList:last-child {
+  border-right: 0
+}
+
+.salesNav .salesNavList.select {
+  color: #333;
+  background: rgba(238, 238, 238, 1);
+}
+
+.salesItem {
+  overflow: hidden;
+  padding: .32rem 0 .32rem .32rem;
+  border-top: 1px solid rgba(222, 222, 222, 1);
+}
+
+.salesItem:first-child {
+  border-top: 0
+}
+
+.salesItem .salesLeft>span,
+.salesItem .salesRight>span {
+  display: block;
+  margin-bottom: .133rem;
+}
+
+.salesItem .salesLeft {
+  margin-top: .133rem
+}
+
+.salesItem .salesTitle {
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.salesItem .stockPercentum {
+  font-weight: bold;
+}
+
+.salesItem .salesLine {
+  width: 1px;
+  height: 2.1rem;
+  margin: 0 .32rem;
+  background: rgba(222, 222, 222, 1);
+}
+
+.salesItem .stockBtn {
+  font-size: .267rem;
+  padding: 0 .133rem;
+  color: rgba(255, 255, 255, 1);
+  background: rgba(234, 40, 39, 1);
+  border-radius: 4px;
+}
+
+
+/* 排行 */
+
+.rankTitle {
+  padding: .333rem .333rem;
+}
+
+.rankTitle .blue {
+  color: #4A7FD2;
+}
+
+.el-table th,
+.ranking .el-table .has-gutter tr {
+  background-color: rgba(248, 248, 248, 1) !important;
+}
+
+.ranking .el-table .el-table__row .el-table_1_column_3 .cell {
+  font-weight: normal;
+  text-align: center;
+}

@@ -1,0 +1,191 @@
+.w1200{
+	width: 1200px;
+	margin: 0 auto;
+}
+.yellow{
+	color: #BFC657;
+}
+.red{
+	color: #EA2827;
+}
+.green{
+	color: #0FBA0F;
+}
+.blue{
+	color: #02E2F4;
+}
+#dragonTiger{
+	font-size: 15px;
+	background: #1C1D21;
+	color:rgba(188,191,196,1);
+}
+/*顶部导航*/
+.banner{
+	font-size: 13px;
+	height: 30px;
+	background: #323337;
+}
+
+.banner .bannerNav{
+	width:72px;
+	height:22px;
+	background:rgba(67,68,72,1);
+	border-radius:4px;
+	display: inline-block;
+	text-align: center;
+	line-height: 22px;
+	margin-top: 4px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+.banner .bannerNav:first-child{
+	margin-left: 0;
+}
+.banner .bannerNav.on{
+	color:rgba(44,126,255,1);
+	background:rgba(37,38,42,1);
+}
+.banner .bannerTime{
+	width:123px;
+	height:22px;
+	text-align: center;
+	margin-top: 4px;
+	line-height: 22px;
+	color:rgba(188,191,196,1);
+	background:rgba(67,68,72,1);
+	border-radius:4px;
+}
+/*个股*/
+#individualShare{
+
+}
+.topNav{
+	overflow: hidden;
+	margin: 16px auto;
+}
+.topNav .topList{
+	width:142px;
+	height:63px;
+	float: left;
+	margin-left: 9px;
+	text-align: center;
+	background:rgba(37,38,42,1);
+	border:1px solid rgba(67,68,72,1);
+}
+.topNav .topList:first-child{
+	margin-left: 0;
+}
+.topNav .topList span{
+	display: block;
+}
+.topNav .listTitle{
+	height:26px;
+	line-height: 26px;
+	background:rgba(50,51,55,1);
+	border-bottom:1px solid rgba(67,68,72,1);
+}
+.topNav .listNum{
+	line-height: 36px;
+}
+/*个股中间*/
+.el-table_1_column_10 {
+	border-right: 0  !important;
+}
+.el-table_1_column_1  {
+	text-align: center !important;
+}
+.el-table td, .el-table th{
+	height: 32px;
+	padding: 0 !important;
+}
+.el-table--border th,
+.el-table--border, 
+.el-table--group,
+.el-table th.is-leaf,
+.el-table--border td,
+.el-table td{
+	border-color: rgba(67,68,72,1) !important;
+}
+.el-table--enable-row-transition .el-table__body td,
+.el-table__body-wrapper,
+.el-table th, .el-table tr{
+	background: #1C1D21 !important;
+	color:rgba(188,191,196,1) !important;
+}
+.el-table--border::after,
+.el-table--group::after,
+.el-table::before{
+	background-color: rgba(67,68,72,1) !important;
+}
+
+.el-table th{
+	background:rgba(37,38,42,1) !important;
+}
+/*底部*/
+.turnoverList{
+	overflow: hidden;
+	margin-top: 15px;
+	padding-bottom: 515px;
+}
+.turnoverLeft,
+.turnoverRight{
+	width: 593px;
+	border: 1px solid rgba(67,68,72,1);
+}
+.salesHand .tr,
+.turnoverList .tr{
+	overflow: hidden;
+	height: 32px;
+	line-height: 32px;
+	border-top: 1px solid rgba(67,68,72,1);
+}
+.salesHand .tr:first-child,
+.turnoverList .tr:first-child{
+	border-top: 0;
+	background:rgba(37,38,42,1);
+}
+.turnoverList .w317{
+	width: 315px;
+}
+.turnoverList .w93{
+	width: 91px;
+}
+.salesHand .item,
+.turnoverList .item{
+	padding-left: 5px;
+	border-left: 1px solid rgba(67,68,72,1);
+}
+.salesHand .item:first-child,
+.turnoverList .item:first-child{
+	border-left: 0;
+}
+/*营业部*/
+.salesHand .img,
+.salesRanking .img{
+	width: 137px;
+	height: 22px;
+	margin: 20px auto;
+	background: url(./images/sbpm_title.png) no-repeat;
+}
+/*携手作战*/
+.salesHand .img{
+	background: url(./images/xszz_title.png) no-repeat;
+}
+.salesHand .handList{
+	border: 1px solid rgba(67,68,72,1);
+}
+.salesHand .tr .w62{
+	width: 61px;
+}
+.salesHand .tr .w377{
+	width: 376px;
+}
+.salesHand .tr .w183{
+	width: 182px;
+}
+.salesHand .tr .w163{
+	width: 162px;
+}
+.salesHand .tr .w418{
+	width: 417px;
+}

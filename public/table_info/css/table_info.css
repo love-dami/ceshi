@@ -1,0 +1,208 @@
+img {
+  width: 100%;
+}
+
+span {
+  display: inline-block;
+}
+
+.icon {
+  display: inline-block;
+  position: relative;
+  top: .053rem;
+}
+
+#table_info {
+  font-size: .347rem;
+  color: #666;
+  position: relative;
+}
+
+/* 圆桌详情 */
+#table_info .img {
+  width: 100%;
+  height: 5.013rem;
+  background: #ccc;
+}
+
+#table_info .content {
+  position: absolute;
+  top: 1.973rem;
+  background: #fff;
+  margin: 0 .32rem;
+  padding: .32rem .267rem;
+  border: .027rem solid #e6e6e6;
+}
+
+#table_info .content .title {
+  font-size: .427rem;
+  color: #222;
+  font-weight: 600;
+  margin-bottom: .213rem;
+}
+
+#table_info .content .title .icon {
+  width: .507rem;
+  height: .453rem;
+  position: relative;
+  top: .08rem;
+  margin-right: .133rem;
+  background: url(../../round_table/images/black@2x.png) no-repeat;
+  background-size: .507rem .453rem;
+}
+
+#table_info .content .txt {
+  font-size: .427rem;
+  line-height: .587rem;
+}
+
+#table_info .content .time {
+  color: #bebebe;
+  padding: .267rem 0 .24rem;
+  margin-bottom: .333rem;
+  border-bottom: .053rem solid #e6e6e6;
+}
+
+#table_info .content .discuss,
+#table_info .content .author {
+  font-size: .4rem;
+}
+
+#table_info .content .discuss .icon,
+#table_info .content .author .icon {
+  width: .373rem;
+  height: .373rem;
+  margin-right: .213rem;
+}
+
+#table_info .content .author .icon {
+  background: url(../images/host_icon@2x.png) no-repeat;
+  background-size: .373rem;
+}
+
+#table_info .content .discuss .icon {
+  margin-left: .347rem;
+  background: url(../images/Interest\ to\ discuss_icon@2x.png) no-repeat;
+  background-size: .373rem;
+}
+
+/* 参与嘉宾 */
+#table_info .actor {
+  margin: 4.13rem 0 0;
+}
+
+#table_info .actor .title {
+  color: #8398b3;
+  font-size: .4rem;
+  padding: 0 .32rem;
+}
+
+#table_info .actor .title .icon {
+  width: .453rem;
+  height: .427rem;
+  margin-right: .133rem;
+  background: url(../images/guest_icon@2x.png) no-repeat;
+  background-size: .453rem .427rem;
+}
+
+#table_info .actor-list {
+  margin-top: .347rem;
+  padding: 0 .32rem .267rem;
+  border-bottom: .053rem solid #e6e6e6;
+}
+
+#table_info .actor-list .img {
+  width: .96rem;
+  height: .96rem;
+  border-radius: 50%;
+  margin-right: .267rem;
+}
+
+#table_info .actor-list .name {
+  font-size: .4rem;
+  color: #333;
+}
+
+#table_info .actor-list .name .icon {
+  width: .32rem;
+  height: .373rem;
+  margin-left: .267rem;
+  background: url(../../round_table/images/cu-v.png) no-repeat;
+  background-size: .32rem .373rem;
+}
+
+#table_info .actor-list .actor-txt {
+  font-size: .427rem;
+  line-height: .587rem;
+  margin-top: .267rem;
+}
+
+#table_info .actor .is-up {
+  color: #F14A3D;
+  text-align: center;
+  padding: .267rem 0 .293rem;
+}
+
+#table_info .actor .is-up .icon {
+  width: .347rem;
+  height: .4rem;
+  margin-right: .2rem;
+  background: url(../images/Click_icon@2x.png) no-repeat;
+  background-size: .347rem .4rem;
+}
+
+#table_info .back-color {
+  width: 100%;
+  height: .32rem;
+  background: #f2f2f2;
+}
+
+/* 圆桌讨论 */
+#table_info .round_table {
+  margin: 0 .32rem;
+}
+
+#table_info .round_table .title {
+  color: #333;
+  font-size: .4rem;
+  text-align: center;
+  font-weight: 600;
+  margin: .453rem 0 .347rem;
+}
+
+#table_info .table-list {
+  margin-bottom: .32rem;
+  border-bottom: .053rem solid #e6e6e6;
+}
+
+#table_info .table-list:last-child {
+  border-bottom: 0 solid #e6e6e6;
+}
+
+#table_info .table-list .img {
+  width: .96rem;
+  height: .96rem;
+  margin-right: .267rem;
+  border-radius: 50%;
+}
+
+#table_info .table-info {
+  font-size: .4rem;
+  color: #333;
+  line-height: .96rem;
+  margin-bottom: .267rem;
+}
+
+#table_info .table-info .job {
+  color: #D62721;
+}
+
+#table_info .table-list .table-txt {
+  font-size: .427rem;
+  line-height: .587rem;
+}
+
+#table_info .table-list .time {
+  color: #bebebe;
+  margin: .213rem 0 .293rem;
+}

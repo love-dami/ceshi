@@ -1,0 +1,151 @@
+img {
+  width: 100%;
+}
+
+i {
+  display: inline-block;
+}
+
+#course {
+  background: #f1f1f1;
+  font-size: 0.347rem;
+  color: #333;
+}
+
+/* 是否直播中 */
+
+#course .top {
+  background: #fff;
+  padding: 0.427rem 0.32rem;
+}
+
+#course .yesLive,
+#course .noLive {
+  margin: 0 auto;
+  border-radius: 1.813rem;
+  padding: 0.373rem 0.267rem 0.267rem;
+  box-shadow: 0.267rem 0.267rem 1.067rem 0.267rem rgba(0, 0, 0, 0.08);
+}
+
+#course .noLive .img {
+  width: 1.36rem;
+  height: 1.147rem;
+  margin-right: 0.267rem;
+}
+
+#course .noLive .title {
+  font-size: 0.4rem;
+  font-family: "JLinXin";
+  margin-right: 0.24rem;
+  font-weight: bold;
+  color: #424b5a;
+}
+
+#course .noLive .red {
+  color: #f55a55;
+}
+
+#course .yesLive .name,
+#course .noLive .name {
+  margin-top: 0.133rem;
+}
+
+#course .yesLive .img {
+  width: 0.96rem;
+  height: 0.96rem;
+  margin-right: 0.267rem;
+  position: relative;
+  top: 0.143rem;
+}
+
+#course .yesLive .title {
+  background: #d3b56f;
+  color: #fff;
+  margin-right: 0.533rem;
+  position: relative;
+  left: 0.267rem;
+  padding: 0.08rem 0.267rem 0.053rem 0.267rem;
+  border-radius: 0.133rem 0 0 0;
+}
+
+#course .yesLive .title::before {
+  content: "";
+  border: 0.5216rem solid #d3b56f;
+  /* border: .480rem solid red; */
+  width: 0;
+  height: 0;
+  padding: 0;
+  position: absolute;
+  left: -0.172rem;
+  bottom: 0;
+  border-left: 0.19rem solid transparent;
+  border-top: 0.167rem solid transparent;
+  border-right: 0.15rem solid transparent;
+  display: inline-block;
+}
+
+#course .yesLive .icon {
+  width: 0.408rem;
+  height: 0.371rem;
+  margin-right: 0.067rem;
+  position: relative;
+  top: 0.08rem;
+  background: url(../images/living.png) no-repeat;
+  background-size: 0.293rem 0.323rem;
+}
+
+#course .yesLive .nickname {
+  font-size: 0.4rem;
+}
+
+#course .yesLive .time {
+  color: #d3b56f;
+}
+
+/* 视频列表 */
+#course .course_list {
+  margin-top: 0.32rem;
+  background: #fff;
+  padding: 0.453rem 0.32rem;
+  overflow: hidden;
+}
+
+#course .course_list .list {
+  margin-bottom: 0.453rem;
+}
+
+#course .course_list .odd {
+  float: left;
+}
+
+#course .course_list .even {
+  float: right;
+}
+
+#course .course_list .img {
+  width: 4.507rem;
+  height: 3.013rem;
+  background: #ccc;
+}
+
+#course .course_list .title {
+  font-size: 0.427rem;
+  color: #222;
+  margin: 0.187rem 0;
+}
+
+#course .course_list .author {
+  color: #bebebe;
+}
+
+/* 加载更多 */
+.loadMore {
+  background: #fff;
+  text-align: center;
+  color: #666;
+}
+
+.loadMore .loading {
+  width: 0.48rem;
+  display: inline-block;
+}

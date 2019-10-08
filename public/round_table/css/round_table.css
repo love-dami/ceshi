@@ -1,0 +1,87 @@
+.icon {
+  display: inline-block;
+}
+
+img {
+  width: 100%;
+}
+
+#round_table {
+  font-size: .347rem;
+  background: #f2f2f2;
+  color: #666;
+}
+
+#round_table .list {
+  margin: 0 0 .32rem;
+  background: #fff;
+  padding: .32rem;
+}
+
+#round_table .content {
+  padding: 0 0 .24rem;
+  margin: 0 0 .32rem;
+  border-bottom: .053rem solid #e6e6e6;
+}
+
+#round_table .title {
+  color: #222;
+  font-weight: 600;
+  font-size: .427rem;
+  line-height: .64rem;
+  margin-bottom: .213rem;
+}
+
+#round_table .title .icon {
+  width: .507rem;
+  height: .453rem;
+  position: relative;
+  top: .083rem;
+  margin-right: .24rem;
+  background: url(../images/black@2x.png) no-repeat;
+  background-size: .507rem .453rem;
+}
+
+#round_table .list:first-child .title .icon {
+  background: url(../images/red@2x.png) no-repeat;
+  background-size: .507rem .453rem;
+}
+
+#round_table .txt {
+  font-size: .427rem;
+  line-height: .587rem;
+  margin-bottom: .107rem;
+}
+
+#round_table .time {
+  color: #bebebe;
+  line-height: .48rem;
+}
+
+#round_table .participator {
+  font-size: .4rem;
+}
+
+#round_table .img {
+  width: .96rem;
+  height: .96rem;
+  background: #ccc;
+  position: relative;
+  top: -0.133rem;
+  border-radius: 50%;
+  margin-left: .16rem;
+}
+
+#round_table .v-img {
+  width: .373rem;
+  height: .373rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: url(../images/cu-v.png) no-repeat;
+  background-size: .373rem;
+}
+
+#round_table .discuss {
+  color: #ea2827;
+}

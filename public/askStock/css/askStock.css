@@ -1,0 +1,10 @@
+i {
+  display: inline-block;
+}
+
+#askStock {
+  font-size: .347rem;
+  color: #666;
+}
+
+#askStock .explain {}

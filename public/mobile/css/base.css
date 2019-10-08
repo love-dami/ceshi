@@ -1,0 +1,38 @@
+.clear:after {
+  content: "";
+  clear: both;
+  display: block;
+  *zoom: 1;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hide,
+.hid {
+  display: none;
+}
+
+.mt12 {
+  margin-top: .32rem;
+}
+
+.in16 {
+  padding-left: .427rem;
+  padding-right: .427rem;
+  box-sizing: border-box;
+}
+
+.none {
+  display: none
+}

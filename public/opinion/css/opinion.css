@@ -1,0 +1,56 @@
+img {
+  width: 100%;
+}
+
+#opinion .list {
+  color: #333;
+  font-size: .347rem;
+  padding: .427rem 0 .373rem;
+  border-bottom: .053rem solid #e6e6e6;
+  margin: 0 .32rem;
+}
+
+#opinion .list .img {
+  width: .96rem;
+  height: .96rem;
+  background: #ccc;
+  border-radius: 50%;
+  margin-right: .267rem;
+  position: relative;
+  top: .067rem;
+}
+
+#opinion .list .name {
+  font-size: .4rem;
+}
+
+#opinion .list .icon {
+  width: .467rem;
+  height: .467rem;
+  display: inline-block;
+  background: url(../images/v.png) no-repeat;
+  background-size: .467rem;
+  position: relative;
+  left: .133rem;
+  top: .08rem;
+}
+
+#opinion .list .time {
+  color: #BEBEBE;
+}
+
+#opinion .list .content {
+  font-size: .427rem;
+  margin-top: .293rem;
+}
+
+#opinion .list .title {
+  color: #222;
+  line-height: .64rem;
+  margin-bottom: .133rem;
+}
+
+#opinion .list .txt {
+  color: #666;
+  line-height: .587rem;
+}

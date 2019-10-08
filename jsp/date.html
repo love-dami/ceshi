@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>日期---快捷选项</title>
+	<link href="https://cdn.bootcss.com/element-ui/2.5.4/theme-chalk/index.css" rel="stylesheet">
+</head>
+<body>
+	<!-- <div v-bind:class="classObject"></div> -->
+	<!-- <div v-bind:class="{active:isActive&&!error,'text-danger':'error&&error.type==='fatal'}"></div> -->
+
+	<div id="app">
+		<div v-bind:class="classObject"></div>
+		日期快捷选项
+		<el-date-picker
+		    v-model="value"
+		    type="datetimerange"
+		    :picker-options="pickerOptions"
+		    range-separator="至"
+		    start-placeholder="开始日期"
+		    end-placeholder="结束日期"
+		    align="right">
+    	</el-date-picker>
+	</div>
+	<h2>数据分布</h2>
+	<div>
+		<span>日新增激活</span>
+		<span>日注册量</span>
+		<span>日活跃</span>
+	</div>
+	<div id="container" style="width: 850px; height: 350px; margin: 25px 0"></div>
+	<div>
+		<span>周新增激活</span>
+		<span>周注册量</span>
+		<span>周活跃</span>
+	</div>
+	<div id="main" style="width: 850px; height: 350px; margin: 25px 0"></div>
+	<div>
+		<span>月新增激活</span>
+		<span>月注册量</span>
+		<span>月活跃</span>
+	</div>
+	<div id="all" style="width: 850px; height: 350px; margin: 25px 0"></div>
+	<script src="https://cdn.bootcss.com/vue/2.6.4/vue.min.js"></script>
+	<script src="https://cdn.bootcss.com/element-ui/2.5.4/index.js"></script>
+	<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+   <script src="https://code.highcharts.com/highcharts.js"></script>
+	<script src="../public/date/date.js"></script>
+	<script>
+		var foo=1
+		function a() {
+			// body...
+			console.log(foo);
+			var foo = 2;
+			console.log(foo);
+		}
+		a()
+	</script>
+</body>
+</html>
